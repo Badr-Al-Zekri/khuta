@@ -2,10 +2,12 @@
 ### نظام تتبع العادات والاستمرارية المرنة المبني على علم السلوك
 **A Behavioral Habit Tracking & Resilience Engine Built with React, TypeScript & Tailwind CSS**
 
+[![Author: Badr B. Al-Zekri](https://img.shields.io/badge/Author-Badr_B._Al--Zekri-059669.svg?logo=github)](https://github.com/Badr-Al-Zekri)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![React 19](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-teal.svg)](https://tailwindcss.com/)
+[![CI Quality Gate](https://github.com/Badr-Al-Zekri/khuta/actions/workflows/ci.yml/badge.svg)](https://github.com/Badr-Al-Zekri/khuta/actions)
 
 ---
 
@@ -103,6 +105,35 @@
 
 ---
 
+## ⚡ اختصارات وإجراءات سريعة | Shortcuts & Quick Workflows
+
+| الإجراء / الاختصار | الوصف والفائدة السلوكية |
+| :--- | :--- |
+| **نقرة واحدة على «إنجاز الهدف كاملاً»** | إتمام العادة بالكامل وتشغيل احتفال فوري لتعزيز حلقة المكافأة الدماغية. |
+| **نقرة واحدة على «أنجزت الحد الأدنى»** | تسجيل خطوة النجاة (Micro-habit) لحماية السلسلة في الأيام المزدحمة. |
+| **النقر على أي يوم في الرسم البياني (7 أيام)** | الانتقال الفوري لذلك اليوم لتسجيله أو تصحيح بيانات سابقة بأثر رجعي. |
+| **الضغط على أي مربع في خريطة الالتزام (35 يوماً)** | فتح سجل عادات ذلك اليوم مباشرة دون الحاجة للبحث. |
+| **تصدير النسخة الاحتياطية (JSON)** | حفظ نسخة كاملة من عاداتك وسجلاتك بضغطة زر دون الحاجة لإنشاء حساب. |
+
+---
+
+## 🚀 الرفع السريع إلى GitHub | Quick Push to GitHub
+
+إذا كنت ترفع المشروع إلى حسابك الشخصي:
+
+```bash
+# 1. ربط المستودع بحسابك على GitHub
+git remote add origin https://github.com/Badr-Al-Zekri/khuta.git
+
+# 2. رفع الفرع الرئيسي مباشرة
+git branch -M main
+git push -u origin main
+```
+
+> **ملاحظة:** تم تضمين سكربت الدفع التلقائي `push_to_github.sh` لأنظمة Linux/macOS وسكربت `push_to_github.bat` لأنظمة Windows لتبسيط عملية الرفع بنقرة واحدة.
+
+---
+
 ## 🚀 التشغيل المحلي | Getting Started
 
 ### المتطلبات المسبقة:
@@ -118,7 +149,10 @@ npm install
 # 2. بدء سيرفر التطوير المحلي
 npm run dev
 
-# 3. بناء نسخة الإنتاج النهائية
+# 3. فحص الأخطاء والتوافق مع TypeScript
+npm run lint
+
+# 4. بناء نسخة الإنتاج النهائية
 npm run build
 ```
 
