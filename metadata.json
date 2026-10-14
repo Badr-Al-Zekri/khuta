@@ -1,0 +1,6 @@
+{
+  "name": "خُطى - تتبع العادات والاستمرارية المرنة",
+  "description": "تطبيق ويب تفاعلي لتتبع العادات وتحسين الالتزام بالأهداف اليومية وفق أسس علم السلوك ومفهوم الحد الأدنى المرن.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
